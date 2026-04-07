@@ -5,8 +5,7 @@
 set -euo pipefail
 
 WORKSPACE_ROOTS=(
-  "/home/roar/code"
-  "/home/roar/misc"
+  "$HOME/code"
 )
 
 while IFS= read -r git_dir; do

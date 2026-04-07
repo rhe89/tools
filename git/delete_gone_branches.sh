@@ -16,8 +16,7 @@ while getopts ":D" opt; do
 done
 
 WORKSPACE_ROOTS=(
-  "/home/roar/code"
-  "/home/roar/misc"
+  "$HOME/code"
 )
 
 while IFS= read -r git_dir; do
